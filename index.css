@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    width: 0;
+    /* overflow-x: hidden; */
+}
+
+
+.icon{
+    width:30px;
+    margin: 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 40%;
+    align-items: center;
+    /* margin-left:10px ;
+    margin-right: 10px; */
+    
+}
+
+/* .nav-bar ul li{
+
+   /* margin: 15%; */
+
+
+ .nav-bar ul li a{
+  
+    text-decoration: none;
+    color: rgb(0, 0, 0  );
+    font-family: sans-serif;
+    font-weight:550;
+    /* margin: 30%; */  
+    margin-left: 20px;
+        margin-right: 20px;
+} 
+
+.nav-bar ul li a:hover{
+    color: rgb(247, 100, 100);
+}
+
+.feature{
+    margin-right: 30px;
+}
+ .Download{
+    margin-right: 40px;
+} 
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    /* position: fixed; */
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    justify-content: flex-start;
+    margin: 50px 0px;
+    
+}
+.image image{
+    /* width: 60%; */
+    /* height: 60%; */
+    align-self: center;
+}
+
+ .image image{
+    width: 90%;
+    /* width: 60%;  */
+    margin:auto;
+
+     /* height:100%; */
+    /* background-size: 400% 40%; */
+}
+
+.content{
+    width: 40%;
+    padding: 10px;
+    /* text-align: justify; */
+    align-self: center;
+
+}
+
+.content h1{
+    /* display: flex; */
+    /* line-break:strict;
+    line-height: 120%; */
+    margin: 2px;
+    padding: 20px 3px;
+    
+    
+}
